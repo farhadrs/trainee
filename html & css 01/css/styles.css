@@ -1,0 +1,83 @@
+body {
+  margin: 10px;
+}
+
+img {
+  width: 100px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.coffee {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ocean {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: disc;
+}
+table,
+td,
+th {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+tfoot {
+  text-align: left;
+}
+.product {
+  background-color: greenyellow;
+}
+a[href^="https"][href$="com"] {
+  color: orangered;
+}
+/* a :visited, link, :hover, :focus {
+  color: chocolate;
+} */
+#produce ~ p {
+  color: aqua;
+}
+article :first-child {
+  color: rgb(250, 215, 236);
+}
+article p:first-of-type {
+  color: rgb(90, 87, 255);
+}
+article :last-child {
+  color: rgb(255, 0, 153);
+}
+article p:last-of-type {
+  color: rgb(87, 255, 137);
+}
+ul li:nth-child(odd) {
+  color: brown;
+}
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+p::first-line {
+  font-weight: bold;
+}
+p::selection {
+  color: pink;
+}
+p::before {
+  content: "...";
+  display: block;
+}
+
