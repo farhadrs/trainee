@@ -60,3 +60,16 @@ try {
 } catch {
   console.log('Error');
 }
+
+const Developer = {
+  a: {
+    b:1, c:2
+  },
+  g: [{ j:10, k: 40 }],
+  d: {
+    h: {
+      o: 10
+    }
+  },
+  p: 10
+}
