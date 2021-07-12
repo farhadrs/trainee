@@ -53,4 +53,3 @@ async function getAllFs() {
 
 // Error handling
 console.log(JSON.parse('{name: John}')); // String to Json
-
